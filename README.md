@@ -306,3 +306,4 @@ The **Ultimate Vocal Remover GUI** code is [MIT-licensed](LICENSE).
 
 ## References
 - [1] Takahashi et al., "Multi-scale Multi-band DenseNets for Audio Source Separation", https://arxiv.org/pdf/1706.09588.pdf
+

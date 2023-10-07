@@ -29,8 +29,7 @@
     },
     "6b5916069a49be3fe29d4397ecfd73fa": {
         "vr_model_param": "3band_44100_msb2",
-        "primary_stem": "Instrumental",
-        "is_karaoke": true
+        "primary_stem": "Instrumental"
     },
     "74b3bc5fa2b69f29baf7839b858bc679": {
         "vr_model_param": "4band_44100",
@@ -86,8 +85,7 @@
     },
     "f6ea8473ff86017b5ebd586ccacf156b": {
         "vr_model_param": "4band_v2_sn",
-        "primary_stem": "Instrumental",
-        "is_karaoke": true
+        "primary_stem": "Instrumental"
     },
     "fd297a61eafc9d829033f8b987c39a3d": {
         "vr_model_param": "1band_sr32000_hl512",
@@ -124,14 +122,5 @@
         "primary_stem": "Other",
         "nout": 16,
         "nout_lstm": 128
-    },
-    "944950a9c5963a5eb70b445d67b7068a": {
-        "vr_model_param": "4band_v3_sn",
-        "primary_stem": "Vocals",
-        "nout": 64,
-        "nout_lstm": 128,
-        "is_karaoke": false,
-        "is_bv_model": true,
-        "is_bv_model_rebalanced": 0.9
     }
 }

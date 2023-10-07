@@ -250,4 +250,4 @@ uvr = UVRInterface()
 uvr.cached_sources_clear()
 
 webui = UVRWebUI(uvr, online_data_path='models/download_checks.json')
-webui.launch()
+webui.launch(share=True)

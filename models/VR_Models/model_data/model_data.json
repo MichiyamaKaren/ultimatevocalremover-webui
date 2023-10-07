@@ -95,16 +95,32 @@
         "vr_model_param": "4band_v3",
         "primary_stem": "No Woodwinds"
     },
+    "0fb9249ffe4ffc38d7b16243f394c0ff": {
+        "vr_model_param": "4band_v3",
+        "primary_stem": "Other"
+    },
     "6857b2972e1754913aad0c9a1678c753": {
         "vr_model_param": "4band_v3",
-        "primary_stem": "No Other",
-        "nout":48,
-        "nout_lstm":128
+        "primary_stem": "Other",
+        "nout": 48,
+        "nout_lstm": 128
     },
     "f200a145434efc7dcf0cd093f517ed52": {
         "vr_model_param": "4band_v3",
-        "primary_stem": "No Other",
-        "nout":48,
-        "nout_lstm":128
+        "primary_stem": "Other",
+        "nout": 48,
+        "nout_lstm": 128
+    },
+    "44c55d8b5d2e3edea98c2b2bf93071c7": {
+        "vr_model_param": "4band_v3",
+        "primary_stem": "Other",
+        "nout": 48,
+        "nout_lstm": 128
+    },
+    "51ea8c43a6928ed3c10ef5cb2707d57b": {
+        "vr_model_param": "1band_sr44100_hl1024",
+        "primary_stem": "Other",
+        "nout": 16,
+        "nout_lstm": 128
     }
 }

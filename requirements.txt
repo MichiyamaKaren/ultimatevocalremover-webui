@@ -4,7 +4,8 @@ certifi==2022.12.7
 cffi==1.15.1
 cryptography
 diffq==0.2.3
-git+https://github.com/Aldair502/Dora
+argparse
+git+https://github.com/NathanEpstein/Dora
 einops==0.6.0
 future==0.18.2
 julius==0.2.7
@@ -29,7 +30,7 @@ pytorch_lightning==2.0.0
 PyYAML==6.0
 resampy==0.2.2
 scipy==1.9.3
-soundfile==0.11.0
+soundfile
 soundstretch==1.2
 torch==2.0.1
 tqdm
@@ -39,4 +40,4 @@ samplerate==0.1.0
 screeninfo==0.8.1
 PySoundFile==0.9.0.post1; sys_platform != 'windows'
 SoundFile==0.9.0; sys_platform == 'windows'
-gradio >= 3.19
+gradio == 3.19

@@ -4,6 +4,7 @@ import json
 import librosa
 import soundfile
 import numpy as np
+import argparse
 
 import gradio as gr
 from UVR_interface import root, UVRInterface, VR_MODELS_DIR, MDX_MODELS_DIR, DEMUCS_MODELS_DIR
@@ -250,4 +251,12 @@ uvr = UVRInterface()
 uvr.cached_sources_clear()
 
 webui = UVRWebUI(uvr, online_data_path='models/download_checks.json')
-webui.launch()
+
+parser = argparse.ArgumentParser(description='Script to launch a webui.')
+parser.add_argument('--share', action='store_true', help='Allow to share the gradio link.')
+args = parser.parse_args()
+
+if args.share:
+    webui.launch(share=True)
+else:
+    webui.launch()
